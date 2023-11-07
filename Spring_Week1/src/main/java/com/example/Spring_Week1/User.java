@@ -1,11 +1,7 @@
 package com.example.Spring_Week1;
 import jakarta.persistence.*;
 
-/*
-Author : Sheikh Zubeena Shireen
-ScreenCaptured Date : 7/11/2023
-Matriculation Number : 1492765
- */
+
 
 @Entity // This tells Hibernate to make a table out of this class
 @Table(name = "user") //database table name
@@ -41,8 +37,4 @@ public class User { //has three fields for ID, username and phone number
     }
 }
 
-/*
-Author : Sheikh Zubeena Shireen
-ScreenCaptured Date : 7/11/2023
-Matriculation Number : 1492765
- */
+
