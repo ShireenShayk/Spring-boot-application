@@ -1,8 +1,4 @@
-/*
-Author : Sheikh Zubeena Shireen
-ScreenCaptured Date : 7/11/2023
-Matriculation Number : 1492765
- */
+
 document.getElementById('form').addEventListener('submit', submitForm);
      function submitForm(event){
         event.preventDefault();
@@ -26,7 +22,7 @@ document.getElementById('form').addEventListener('submit', submitForm);
         })
         .catch(error => console.error('Error:', error));
     }
-/*Author : Sheikh Zubeena Shireen    ScreenCaptured Date : 7/11/2023   Matriculation Number : 1492765*/
+
     function fetchUserDetails() {
         // Fetch all user details from the backend
         fetch('/all')
@@ -54,7 +50,7 @@ document.getElementById('form').addEventListener('submit', submitForm);
             });
         }
 
-/*Author : Sheikh Zubeena Shireen    ScreenCaptured Date : 7/11/2023   Matriculation Number : 1492765*/
+
     document.addEventListener('DOMContentLoaded', function(){
 
     function checkFields() {
