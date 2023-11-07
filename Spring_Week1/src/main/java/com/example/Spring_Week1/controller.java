@@ -3,7 +3,7 @@ package com.example.Spring_Week1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-/*Author : Sheikh Zubeena Shireen      ScreenCaptured Date : 7/11/2023     Matriculation Number : 1492765*/
+
 @Controller   //means this class is controller class
 public class controller {
     @Autowired // This means to get the bean called userRepository
