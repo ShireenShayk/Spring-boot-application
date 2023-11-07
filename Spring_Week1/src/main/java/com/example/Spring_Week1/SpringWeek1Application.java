@@ -12,8 +12,4 @@ public class SpringWeek1Application {
 
 }
 
-/*
-Author : Sheikh Zubeena Shireen
-ScreenCaptured Date : 7/11/2023
-Matriculation Number : 1492765
- */
+
